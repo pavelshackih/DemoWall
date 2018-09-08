@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:background="?attr/selectableItemBackground"
+                android:id="@+id/root"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_height="@dimen/icon_size"
+        android:layout_margin="16dp"
+        android:layout_width="@dimen/icon_size"
+        />
+
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:id="@+id/titleTextView"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:padding="8dp"
+        android:paddingEnd="8dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="8dp"
+        android:paddingStart="4dp"
+        tools:text="Города"/>
+
+    <View
+        android:background="#14ffffff"
+        android:layout_alignLeft="@+id/titleTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/titleTextView"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"/>
+
+</RelativeLayout>

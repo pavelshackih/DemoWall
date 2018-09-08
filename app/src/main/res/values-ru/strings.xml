@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Обои</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="set_wallpaper">Установить</string>
+    <string name="share_wallpaper">Поделиться</string>
+    <string name="back_button">Назад</string>
+    <string name="permission_info_message">Предоставьте доступ приложению для установки картинки на рабочем столе и экране блокировки.</string>
+    <string name="ok">Oк</string>
+
+    <string-array name="set_types">
+        <item>Главный экран</item>
+        <item>Заблокированный экран</item>
+        <item>Оба экрана</item>
+    </string-array>
+    <string name="image_loading">Изображение еще загружается…</string>
+    <string name="please_waiting">Пожалуйста, подождите…</string>
+    <string name="error_sharing">Не удалось передать изображение.</string>
+    <string name="close">Закрыть</string>
+    <string name="open_soft_license">Лицензии открытого ПО</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="retry">Повторить</string>
+    <string name="error">Ошибка</string>
+    <string name="some_error_happens">Что-то пошло не так…</string>
+    <string name="network_error">Проверьте подключение к сети.</string>
+    <string name="app_version">Версия приложения: %1$s (%2$s)</string>
+    <string name="app_settings">Настройки</string>
+    <string name="bitmap_set">Изображение установлено</string>
+    <string name="album_background">Фон альбома</string>
+    <string name="buy_full_summary">Поддержать разработчиков, расширив набор обоев!</string>
+    <string name="full_version">Полная версия</string>
+    <string name="buy_me_a_coffee">Купить кофе</string>
+    <string name="buy">Купить</string>
+    <string name="buy_me_a_sandwich">Купить сэндвич</string>
+    <string name="buy_me_a_snack">Купить пиццу</string>
+    <string name="cancel">Отмена</string>
+    <string name="support">Поддержать</string>
+    <string name="support_development">Поддержать разработку</string>
+    <string name="error_billing_opening">Что-то пошло не так…</string>
+    <string name="thank_you">Спасибо!</string>
+    <string name="action_about">О программе</string>
+    <string name="contact_me_title">Написать мне</string>
+    <string name="contact_me_summary">Если Вам понравилось это приложение и у Вас есть какие-либо предложения относительно разработки, то напишите мне.</string>
+    <string name="thank_you_message">Спасибо! Благодаря Вам приложение будет развиваться!</string>
+</resources>
